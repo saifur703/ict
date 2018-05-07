@@ -1,0 +1,171 @@
+/*=================================
+My Custom CSS
+=============
+
+Author: Mohammad Saifur Rahman
+Updated: 20 May, 2018
+Notes: Hand Coded for RR Foundation
+
+===================================*/
+
+
+.section_padding {
+    padding: 50px 0 20px;
+}
+.section_padding .col-md-3 {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.section_padding .row {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+.pricing_heading h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.section_title {
+    margin-bottom: 120px;
+    text-align: center;
+    display: inline-block;
+}
+.section_title h2 {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.pricing_heading {
+    text-transform: capitalize;
+    padding: 20px;
+    background: #15BCD5;
+    color: #fff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.pricing_heading h1 span {
+    font-size: 50%;
+    text-transform: uppercase;
+    opacity: .5;
+    display: block;
+    margin-top: 10px;
+}
+.pricing_round {
+	width: 120px;
+	height: 120px;
+	background: #15BCD5;
+	border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+.pricing_round::after {
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+    background: #fbfafa;
+    z-index: -1;
+}
+.pricing_round::before {
+	position: absolute;
+	content: "";
+	left: -5%;
+	top: -5%;
+	width: 110%;
+	height: 110%;
+	border: 2px solid #fbfafa;
+	border-radius: 50%;
+    z-index: -1;
+}
+.pricing_round span {
+  display: block;
+  font-size: 70%;
+  margin-top: 7px;
+}
+.pricing_round h3 {
+	text-align: center;
+	line-height: 120px;
+	color: #333;
+	font-size: 20px;
+}
+.pricing_content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pricing_content li {
+  padding: 8px 30px;
+  position: relative;
+    padding-left: 45px;
+    line-height: 1.6;
+}
+.pricing_content li:after {
+  position: absolute;
+  content: "\f00c";
+  font-family: "FontAwesome";
+  left: 20px;
+  top: 10px;
+    color: #29A75E;
+}
+.pricing_content li.c_off:after {
+    content: "\f00d";
+    color: #FC163D
+}
+.pricing_content {
+    padding-top: 18px;
+    border-left: 1px solid #D6DDD9;
+    border-right: 1px solid #D6DDD9;
+    border-bottom: 1px solid #D6DDD9;
+}
+.pricing_content li:nth-child(2n+2) {
+  background: #F5F6F9;
+}
+.single_pricing_box {
+	margin-bottom: 50px;
+}
+/*
+.single_pricing_box {
+	min-height: 630px;
+}
+*/
+.section_sep {
+  position: relative;
+}
+.section_sep::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: 0;
+  width: 120px;
+  height: 2px;
+  background: #15BCD5;
+  margin-left: -60px;
+}
+.section_sep::after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: -10px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 1px solid #15BCD5;
+  border-radius: 50%;
+  margin-left: -10px;
+}
+.special_class {
+    background:  #F5F6F9;
+    color:  #15BCD5;
+    text-align:  center;
+    text-transform:  uppercase;
+    font-size:  20px;
+    padding:  7px;
+    font-weight: 700;
+}
+.happy_coder_img {
+    width:  100%;
+    height: 370px;
+}
