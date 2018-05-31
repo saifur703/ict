@@ -8,7 +8,10 @@ Notes: Hand Coded for RR Foundation
 
 ===================================*/
 
-
+body {
+    font-size: 16px;
+    line-height: 1.5
+}
 .section_padding {
     padding: 50px 0 20px;
 }
@@ -25,9 +28,11 @@ Notes: Hand Coded for RR Foundation
 	margin-bottom: 20px;
 }
 .section_title {
-    margin-bottom: 120px;
+    margin-bottom: 50px;
     text-align: center;
     display: inline-block;
+    font-size: 20px;
+    line-height: 1.8;
 }
 .section_title h2 {
   text-transform: capitalize;
@@ -133,6 +138,7 @@ Notes: Hand Coded for RR Foundation
 */
 .section_sep {
   position: relative;
+    padding-top: 15px;
 }
 .section_sep::before {
   position: absolute;
@@ -165,7 +171,34 @@ Notes: Hand Coded for RR Foundation
     padding:  7px;
     font-weight: 700;
 }
-.happy_coder_img {
-    width:  100%;
-    height: 370px;
+.panel .panel-heading h4 a i.fa {
+	float: right;
+	font-size: 150%;
+	line-height: 15px;
+	display: none;
+    font-weight: 700
 }
+.panel .panel-heading h4 a[aria-expanded=true] i.fa.fa-angle-down {
+	display: block
+}
+.panel .panel-heading h4 a[aria-expanded=false] i.fa.fa-angle-up {
+	display: block
+}
+.panel-default>.panel-heading {
+    background: #f0f0f0;
+}
+.panel-title>.small, .panel-title>.small>a, .panel-title>a, .panel-title>small, .panel-title>small>a {
+    display: block;
+    padding: 10px 0;
+    line-height: 1.8
+}
+.panel-default, .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-color: #c5c5c5 
+}
+.footer_area {
+    padding:  50px 0;
+    background:  #f0f0f0;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+.footer_area a {color: #333}
