@@ -17,6 +17,7 @@
 /*		Tablet and Mobile Layout         */
 @media only screen and (max-width: 991px) {
     
+    
     .section_title, .single_pricing_box {
         margin-bottom: 40px;
     }
@@ -26,6 +27,10 @@
     .happy_coder_img {
         height: auto;
     }
+    .footer_area .col-md-6 {
+        margin-bottom: 15px;
+        text-align: center
+    }
 
     
 }
@@ -34,7 +39,9 @@
 /*		Mobile Layout: 320px.         */
 
 @media only screen and (max-width: 767px) {
-	
+	.section_title {
+        font-size: 16px;
+    }
 }
 
 
